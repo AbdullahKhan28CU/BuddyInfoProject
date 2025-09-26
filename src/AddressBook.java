@@ -20,7 +20,7 @@ public class AddressBook {
     }
 
     public static void main(String[] args) {
-        System.out.println("Address book");
+        System.out.println("New Address book");
         AddressBook Book = new AddressBook();
         BuddyInfo buddy = new BuddyInfo();
         Book.addBuddy (buddy);
