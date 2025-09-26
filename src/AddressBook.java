@@ -19,6 +19,14 @@ public class AddressBook {
         }
     }
 
+    public BuddyInfo getBuddy(int buddyNum) {
+        if (buddyNum >= 0 && buddyNum < Buddies.size()) {
+            return Buddies.get(buddyNum);
+        }
+
+        return null;
+    }
+
     public static void main(String[] args) {
         System.out.println("New Address book");
         AddressBook Book = new AddressBook();
