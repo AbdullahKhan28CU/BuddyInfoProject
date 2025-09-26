@@ -14,7 +14,9 @@ public class AddressBook {
     }
 
     public void removeBuddy(int buddyNum) {
-        Buddies.remove(buddyNum);
+        if (buddyNum >= 0 && buddyNum < Buddies.size()) {
+            Buddies.remove(buddyNum);
+        }
     }
 
     public static void main(String[] args) {
