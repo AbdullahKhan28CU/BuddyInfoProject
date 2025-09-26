@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BuddyInfoProject:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BuddyInfoProject_jar</output-path>
+    <root id="archive" name="BuddyInfoProject.jar">
+      <element id="module-output" name="BuddyInfoProject" />
+      <element id="module-source" name="BuddyInfoProject" />
+    </root>
+  </artifact>
+</component>
